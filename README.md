@@ -53,3 +53,13 @@ Factorial of a number was calculated using two methods: Iterative and Recursive.
 Conclusion
 
 The experiment helped understand the difference between iteration and recursion. The iterative method uses less memory, while the recursive method provides a simpler and more mathematical approach. Both methods have O(n) time complexity and can be used to calculate factorial effectively.
+
+PRACTICAL-7
+
+Summary
+
+This practical involved implementing the Coin Change problem using a dynamic programming (tabulation) approach. The objective was to determine the minimum number of coin denominations required to construct a specific target currency amount. The program maintains a lookup array (dp) where each index represents an incremental amount up to the target, iteratively updating each state by evaluating available coin choices.Dynamic Programming Coin Change: Computes optimal coin sub-problems sequentially, avoiding redundant recalculations through bottom-up optimization.(Time Complexity: \(O(A \times N)\) | Space Complexity: O(A), where A is the target amount and N is the number of coin types)
+
+Conclusion
+
+This experiment successfully showcased the efficiency of Dynamic Programming over greedy algorithms, which can fail to find the optimal solution for non-standard coin denominations. By breaking the main currency problem down into smaller, overlapping sub-problems and storing their solutions, the program guarantees an absolute mathematically minimal coin count. This practical provided valuable insights into state transition tables, optimization bounds using INT_MAX, and array-driven memoization techniques.
