@@ -73,3 +73,13 @@ This practical involved implementing the 0/1 Knapsack problem using a dynamic pr
 Conclusion
 
 This experiment successfully demonstrated the application of Dynamic Programming over a simple brute-force recursive strategy, which would otherwise result in an inefficient exponential time complexity. By utilizing a state transition matrix, the program successfully tracks optimal value choices for varying sub-capacities, guaranteeing an absolute mathematically maximum profit. This practical provided valuable insights into multi-dimensional array memoization, constraint-bound decision making, and the operational breakdown of overlapping sub-problems.
+
+PRACTICAL-9
+
+Summary
+
+This practical involved implementing the Matrix Chain Multiplication problem using a dynamic programming (tabulation) approach. The objective was to determine the most efficient order to multiply a sequence of matrices by minimizing the total number of scalar multiplications. The program utilizes a two-dimensional lookup table (dp) to sequentially compute and store the optimal split costs for chains of increasing lengths. By evaluating the split choices iteratively, the algorithm determines the global minimum parenthesization cost without redundant calculations.Dynamic Programming Matrix Chain Multiplication: Computes optimal matrix sub-problems sequentially, avoiding exponential recursive overhead through diagonal bottom-up optimization.Time Complexity: O(N³)Space Complexity: O(N²), where N is the total number of elements in the dimensions array.
+
+Conclusion
+
+This experiment successfully demonstrated the application of Dynamic Programming over an exhaustive recursive strategy, which would otherwise result in an inefficient exponential time complexity. By utilizing a state transition matrix to store sub-chain operations, the program successfully determines the absolute mathematically minimal scalar multiplication operations required. This practical provided valuable insights into multi-dimensional diagonal array tabulation, nested window-based iteration, and optimal split boundary selection techniques.
