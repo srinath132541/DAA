@@ -63,3 +63,13 @@ This practical involved implementing the Coin Change problem using a dynamic pro
 Conclusion
 
 This experiment successfully showcased the efficiency of Dynamic Programming over greedy algorithms, which can fail to find the optimal solution for non-standard coin denominations. By breaking the main currency problem down into smaller, overlapping sub-problems and storing their solutions, the program guarantees an absolute mathematically minimal coin count. This practical provided valuable insights into state transition tables, optimization bounds using INT_MAX, and array-driven memoization techniques.
+
+PRACTICAL-5
+
+Summary
+
+This practical involved implementing the 0/1 Knapsack problem using a dynamic programming (tabulation) approach. The objective was to determine the maximum value achievable by selecting a subset of items without exceeding a specific weight capacity constraint. The program utilizes a two-dimensional lookup table (dp) where rows represent the subset of items and columns represent incremental weight capacities. By analyzing whether including or excluding the current item yields a higher profit, the algorithm iteratively builds up the optimal solution.Dynamic Programming 0/1 Knapsack: Computes optimal sub-problems sequentially, avoiding redundant recalculations through bottom-up optimization.Time Complexity: \((O(N \times W))\)Space Complexity: \((O(N \times W))\), where N is the total number of items and W is the maximum capacity of the knapsack.
+
+Conclusion
+
+This experiment successfully demonstrated the application of Dynamic Programming over a simple brute-force recursive strategy, which would otherwise result in an inefficient exponential time complexity. By utilizing a state transition matrix, the program successfully tracks optimal value choices for varying sub-capacities, guaranteeing an absolute mathematically maximum profit. This practical provided valuable insights into multi-dimensional array memoization, constraint-bound decision making, and the operational breakdown of overlapping sub-problems.
