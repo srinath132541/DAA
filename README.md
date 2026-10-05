@@ -83,3 +83,16 @@ This practical involved implementing the Matrix Chain Multiplication problem usi
 Conclusion
 
 This experiment successfully demonstrated the application of Dynamic Programming over an exhaustive recursive strategy, which would otherwise result in an inefficient exponential time complexity. By utilizing a state transition matrix to store sub-chain operations, the program successfully determines the absolute mathematically minimal scalar multiplication operations required. This practical provided valuable insights into multi-dimensional diagonal array tabulation, nested window-based iteration, and optimal split boundary selection techniques.
+
+PRACTICAL-10
+
+Summary
+
+This practical involved implementing Kruskal’s Algorithm using a greedy approach to find the Minimum Spanning Tree (MST) of a weighted, undirected connected graph. The objective was to select a subset of edges that connects all vertices without forming cycles while minimizing the total edge weight. The program processes edge structures globally by sorting them in ascending order of their weights. To ensure cycle prevention during iterative edge addition, the algorithm utilizes the Disjoint Set Union (DSU) data structure optimized with Union by Rank and Path Compression subroutines. By verifying component connectivity dynamically, the program constructs the absolute mathematically minimal backbone network grid.
+• Greedy Edge Processing: Evaluates individual sorted edge items sequentially, prioritizing lower local weights to assemble global structural optimization.
+• Time Complexity: \(\mathcal{O}(E \log E)\) or \(\mathcal{O}(E \log V)\) due to the initial edge sorting boundary.
+• Space Complexity: \(\mathcal{O}(V + E)\) to allocate memory tracks for tracking edge arrays and disjoint tree ranks, where \(V\) represents vertices and \(E\) represents edges.
+
+Conclusion
+
+This experiment successfully demonstrated the application of Kruskal’s greedy strategy over alternative matrix-scanning procedures, showcasing how complex network routing operations can be resolved without exhaustive exponential scanning. By utilizing a optimized Disjoint Set architecture with path compression, the program avoids cyclic deadlocks efficiently, reducing component lookups to near-constant inverse Ackermann time complexity (\(\mathcal{O}(\alpha(V))\)). This practical provided valuable insights into structural edge array manipulation, dynamic component partitioning systems, quick-sort partitioning implementations, and cycle validation rules within graph-theory architectures.
