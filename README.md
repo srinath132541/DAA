@@ -74,7 +74,7 @@ Conclusion
 
 This experiment successfully demonstrated the application of Dynamic Programming over a simple brute-force recursive strategy, which would otherwise result in an inefficient exponential time complexity. By utilizing a state transition matrix, the program successfully tracks optimal value choices for varying sub-capacities, guaranteeing an absolute mathematically maximum profit. This practical provided valuable insights into multi-dimensional array memoization, constraint-bound decision making, and the operational breakdown of overlapping sub-problems.
 
-PRACTICAL-9
+PRACTICAL-6
 
 Summary
 
